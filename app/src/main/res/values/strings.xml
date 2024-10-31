@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TrafficLaws</string>
+    <string name="info">Информация</string>
+    <string name="traffic_laws">Правила дорожного движения</string>
 </resources>

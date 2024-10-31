@@ -9,40 +9,22 @@
 
 
     <CheckBox
-        android:id="@+id/checkbox"
+        android:id="@+id/checkboxTL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Информация"
-        app:layout_constraintBottom_toTopOf="@+id/infoTextView"
+        android:text="@string/info"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/infoTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/infoTV"
+        android:layout_width="380dp"
+        android:layout_height="640dp"
         android:paddingTop="16dp"
-        android:text="Информация"
+        android:text="@string/info"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/checkboxTL"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp" />
-
-    <TextView
-        android:id="@+id/rulesTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:visibility="gone"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TrafficLaws"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
